@@ -4,5 +4,6 @@ Repositorio que contiene las actividades de LLMM
 Ejercicio | Descripción
 ----------|--------------
 [Ejercico 1](/Tema_1/HTML.html)| Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección
-Ejercicio 2 | Crea un documento xml que incluya información sobre un par de libros de una biblioteca
+[Ejercicio 2](/Tema_1/XML.xml) | Crea un documento xml que incluya información sobre un par de libros de una biblioteca
+[Ejercicio 3](/Tema_1/SVG.html) | ¿Qué es SVG? Busca un ejemplo.
 
