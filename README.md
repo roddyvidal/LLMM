@@ -8,5 +8,5 @@ Ejercicio | Descripción
 [Ejercicio 3](/Tema_1/SVG.html) | ¿Qué es SVG? Busca un ejemplo.
 [Ejercicio 4](Tema_1/Introduccion_HTML.html) | Introduccion a HTML, priemera página
 [Ejercicio 5](Tema_1/HEADING.html) | HEADINGS HTML
-[Ejercicio 6](Tema_1/
+[Ejercicio 6](Tema_1/CV.html) | Curriculum vitae HTML
 
