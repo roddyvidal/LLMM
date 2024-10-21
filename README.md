@@ -10,5 +10,7 @@ Ejercicio | Descripción
 [Ejercicio 5](Tema_1/HEADING.html) | HEADINGS HTML
 [Ejercicio 6](Tema_1/CV.html) | Curriculum vitae HTML
 [Ejercicio7](Tema_1/Ejercicio_4.html) | Etiquetas a la vista
-[ejercicio 8](
+[Ejercicio 8](Tema_1/DBZSZ.html) | Text alingn
+[Ejercico 9](Tema_1)
+
 
