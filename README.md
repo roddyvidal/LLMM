@@ -13,6 +13,7 @@ Ejercicio | Descripción
 [Ejercicio 8](Tema_1/DBZSZ.html) | Text alingn
 [Ejercico 9](Tema_1/DBZSZ.html) | Fondo y color
 [Ejercicio 10](Tema_1/Portfolio) | Enlaces básicos
+[Ejercicio 11](Tema_1/Ejercicio 11.html) 
 
 
 
