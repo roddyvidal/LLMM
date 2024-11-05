@@ -1,23 +1,60 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Title> Menu</Title>
+    <Title> Ejercicio_11</Title>
+    <style>
+        ul ul{
+            list-style-type: disc;
+        }
+        ul.nodec{
+            list-style-type: none;
+        }
 
 
-
-
+    </style>
 </head>
+
 
 <body>
     <h1>Menú</h1>
         <li> Inicio</li>
-        <li> <strong> Noticias</strong></li> <ul>
-            <li>Recientes</li>
-            <li>Más Leídas</li>
-            <li> Más valoradas</li>   
+        <li> <strong> Noticias</strong></li> 
+        <ul>
+            <li><a href="#Recientes">Recientes</a></li>
+            <li><a href="#Más leídas"> Más leídas</a></li>
+            <li><a href="Más valoradas">Más valoradas </a></li>   
         </ul>
-    
-    
+        <ul>
+            <li>Artículos</li>
+            <ol> 
+             <li><strong>XHTML</strong></li>
+             <li>CSS</li>
+                <li>javascript</li>
+                <li>Otros</li>
+            </ol>
+
+                <li> Contacto</li>
+                <ul class="nodec">
+                <br>
+                <li><i>Email</i></li>
+                <ul class="nodec"><strong>nombre@direccion.com</strong> 
+                </ul>
+
+                
+                <br>
+                <li><i> Teléfono</i></li>
+                <ul class="nodec">900 900 900 </ul>
+
+                
+                <br>
+                <li><i>Fax</i></li>
+                <ul class="nodec">900 900 900
+
+        </ul>     
+    </ul>
+</ul>   
 </body>
+</html>
