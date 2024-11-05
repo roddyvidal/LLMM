@@ -14,8 +14,8 @@ Ejercicio | Descripción
 [Ejercico 9](Tema_1/DBZSZ.html) | Fondo y color
 [Ejercicio 10](Tema_1/Portfolio) | Enlaces básicos
 [Ejercicio 11](Tema_1/Ejercicio_11.html) | Listas 
-[Ejercicio 12](Tema_1/Ejercicio_11.html) | Listas 2
-[ejercicio 13](Tema_1)
+[Ejercicio 11.2](Tema_1/Ejercicio_11.html) | Listas 2
+[ejercicio 12](Tema_1)
 
 
 
