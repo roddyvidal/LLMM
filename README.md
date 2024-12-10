@@ -15,7 +15,13 @@ Ejercicio | Descripción
 [Ejercicio 10](Tema_1/Portfolio) | Enlaces básicos
 [Ejercicio 11](Tema_1/Ejercicio_11.html) | Listas 
 [Ejercicio 11.2](Tema_1/Ejercicio_11.html) | Listas 2
-[ejercicio 12](Tema_1)
+[ejercicio 12](Tema_1/Ejercicio_12.html) | html styles
+[Ejercicio_13](Tema_1/Ejercicio_13.html) | html borders
+[Ejercicio 14](Tema_1/Ejercicio_14.html) | margin y padding
+[Ejercicio 15](Tema_1/Ejercicio_15.html) | Tablas
+[Ejercicio 17](Tema_1/Ejercicio_17.html) | Tablas
+
+
 
 
 
