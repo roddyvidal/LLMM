@@ -22,7 +22,7 @@ Ejercicio | Descripción
 [Ejercicio 17](Tema_1/Ejercicio_17.html) | Tablas
 [Ejercicio 18](Tema_1/Ejercicio_18.html) | Tablas
 [Ejercicio_19](Tema_1/Ejercicio_19.html) | Imagenes
-[Práctica Trimestre](https://euphonious-kheer-98cc66.netlify.app/) | Práctica 1er Trimestre
+
 
 
 
