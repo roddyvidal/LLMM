@@ -1,86 +1,15 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f8f8f8;
+img.imagen1 {
+    float: left;
+    width: 120px;
+    height: 120px;
 }
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+img.imagen2 {
+    float: right;
+    width: 120px;
+    height: 120px;
 }
-
-h1 {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-p {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    text-align: left;
-}
-
-table th, table td {
-    border: 1px solid #ddd;
-    text-align: center;
-    padding: 1px;
-}
-
-table th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-    width: 30%;
-}
-
-
-.colors {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-}
-
-.color {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-}
-
-.color.white {
-    background-color: white;
-    
-}
-
-.color.black {
-    background-color: black;
-}
-
-.color.pink {
-    background-color: pink;
-}
-
-.color.green {
-    background-color: limegreen;
-}
-
-.color.blue {
-    background-color: skyblue;
-}
-
-.color.gray {
-    background-color: gray;
+img.imagen3 {
+    float:none;
+    width: 120px;
+    height: 120px;
 }
