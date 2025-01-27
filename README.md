@@ -16,12 +16,13 @@ Ejercicio | Descripción
 [Ejercicio 11](Tema_1/Ejercicio_11.html) | Listas 
 [Ejercicio 11.2](Tema_1/Ejercicio_11.html) | Listas 2
 [ejercicio 12](Tema_1/Ejercicio_12.html) | html styles
-[Ejercicio_13](Tema_1/Ejercicio_13.html) | html borders
-[Ejercicio 14](Tema_1/Ejercicio_14.html) | margin y padding
-[Ejercicio 15](Tema_1/Ejercicio_15.html) | Tablas
-[Ejercicio 17](Tema_1/Ejercicio_17.html) | Tablas
-[Ejercicio 18](Tema_1/Ejercicio_18.html) | Tablas
-[Ejercicio_19](Tema_1/Ejercicio_19.html) | Imagenes
+[Ejercicio_13](Tema_1/Ejercicio_13.html) | Crea cuatro párrafos y rellena el contenido con el texto "Lorem ipsum". Añade una cabecera a cada párrafo e incluye un identificador para cada etiqueta.
+[Ejercicio 14](Tema_1/Ejercicio_14.html) | Crea cuatro párrafos y rellena el contenido con el texto "Lorem ipsum". Añade una cabecera a cada párrafo e incluye un identificador para cada etiqueta.
+[Ejercicio 15](Tema_1/Ejercicio_15.html) | Crea la tabla mostrada a continuación
+[Ejercicio 17](Tema_1/Ejercicio_17.html) | Display the following table. Use heading cells where necessary and all attributes you need.
+[Ejercicio 18](Tema_1/Ejercicio_18.html) | Display the following table. Use heading cells where necessary and all attributes you need.
+[Ejercicio_19](Tema_1/Ejercicio_19.html) | Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto. A continuación agrega una imagen con posicionamiento flotante a derecha junto a un párrafo con texto.
+[Ejercicio_20](Tema_1/Ejercicio_20.html) | Usa las imágenes de w3school incluidas al principio del artículo del enlace siguiente y agrégales texto, tal como aparece en el ejemplo final del artículo sobre posicionamiento flotante.
 
 
 
