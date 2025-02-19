@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Deportivas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+             .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        .dark-mode .navbar {
+            background-color: #333 !important;
+        }
+
+        .dark-mode .card {
+            background-color: #222;
+            color: white;
+        }
+
+        .dark-mode footer {
+            background-color: #333;
+        }
+        .btn.btn.btn-outline-light{
+            background-color: #333;
+        }
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const darkModeToggle = document.getElementById("toggleDarkMode");
+        const body = document.body;
+    
+        // Comprobar si el modo oscuro estaba activado previamente
+        if (localStorage.getItem("darkMode") === "enabled") {
+            body.classList.add("dark-mode");
+        }
+    
+        // Agregar evento al botón
+        darkModeToggle.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+    
+            // Guardar la preferencia en localStorage
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                localStorage.setItem("darkMode", "disabled");
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-danger" href="index.html">Futbol Emotion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="futbolDropdown" role="button" data-bs-toggle="dropdown">Fútbol</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Noticias.html">Entrevistas</a></li>
+                            <li><a class="dropdown-item" href="Ligas.html">Ligas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                        <button id="toggleDarkMode" class="btn btn-outline-light">Modo Oscuro</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="h6">
+        <h6 class="text-danger">Sport bussines</h6></div>
+    <div class="centrado-futbol">
+     <h2 class="futbol-caro"><strong>Precios del fútbol en Champions y Liga: las entradas más caras en España y mil millones para el Real Madrid</strong></h2>
+        <p class="futbol-caro">Vuelven las eliminatorias de toda la vida en la Champions. El formato cambió en la primera fase pero a partir de ahora regresa a lo que todos conocemos. Vuelve el mayor espectáculo del fútbol europeo, la mejor experiencia para el aficionado al deporte en directo. Vuelve la emoción de un partido a vida o muerte. Y también vuelven los precios disparados, por lo menos en España. El Real Madrid-Manchester City es la eliminatoria más atractiva con diferencia, pero también la segunda más cara de los ocho play-offs que se van a disputar entre hoy y mañana, después del PSG-Brest. <br>
+        <br>
+        </p>
+        <p class="futbol-caro">Por cierto, en París, donde la eliminatoria quedó sentenciada la semana pasada con el 0-3 que logró el equipo de Luis Enrique en la ida en Brest, el club sacó ayer algunas de las pocas entradas a la venta que le quedan de las 11.000 que ofrece al público no abonado en el Parque de los Príncipes con unos precios mucho más razonables: 48€, 69€ y 111€. Pero todos los aficionados que compraron sus entradas antes de ese 0-3 tuvieron que pagar el dineral habitual: entre 190€ y 390€. Con razón el PSG es el segundo equipo de toda Europa que más ingresa en los días de partido.</p>
+        <img src="image/city-madrid.webp" class="mbappe" alt="precios partidos">
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Futbol Emotion. Todos los derechos reservados.</p>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
