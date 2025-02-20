@@ -24,6 +24,8 @@ Ejercicio | Descripción
 [Ejercicio_19](Tema_1/Ejercicio_19.html) | Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto. A continuación agrega una imagen con posicionamiento flotante a derecha junto a un párrafo con texto.
 [Ejercicio_20](Tema_1/Ejercicio_20.html) | Usa las imágenes de w3school incluidas al principio del artículo del enlace siguiente y agrégales texto, tal como aparece en el ejemplo final del artículo sobre posicionamiento flotante.
 
+## TEMA 2- CSS
+[Ejercico 1]
 
 
 
