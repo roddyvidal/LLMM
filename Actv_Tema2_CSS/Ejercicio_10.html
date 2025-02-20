@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Flexbox - Frutas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: auto;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .fruta {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .manzana { background-color: red; color: white; }
+        .platano { background-color: yellow; color: black; }
+        .uva { background-color: purple; color: white; }
+        .naranja { background-color: orange; color: black; }
+        .kiwi { background-color: green; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Frutas con Flexbox</h1>
+    <div class="contenedor">
+        <div class="fruta manzana">Manzana</div>
+        <div class="fruta platano">Plátano</div>
+        <div class="fruta uva">Uva</div>
+        <div class="fruta naranja">Naranja</div>
+        <div class="fruta kiwi">Kiwi</div>
+    </div>
+</body>
+</html>

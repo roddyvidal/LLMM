@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Adaptativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            min-width: 300px;
+        }
+        .left-column {
+            background-color: #f4f4f4;
+        }
+        .right-column {
+            background-color: #ddd;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Mi Web Adaptativa</div>
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </div>
+    <div class="container">
+        <div class="column left-column">
+            <h2>Columna Izquierda</h2>
+            <p>Contenido de la primera columna.</p>
+        </div>
+        <div class="column right-column">
+            <h2>Columna Derecha</h2>
+            <p>Contenido de la segunda columna.</p>
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 Mi Sitio Web</div>
+</body>
+</html>

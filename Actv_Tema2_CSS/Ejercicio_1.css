@@ -1,0 +1,32 @@
+.two-columns .column-left, 
+.two-columns .column-right {
+    float: left;
+    width: 10%;
+    margin: 0 2.5%;
+}
+
+.two-columns::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    color: blue;
+    background-color: lightgray;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.6em;
+    word-spacing: 2em;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing: 1.4em;
+    margin-bottom: 10px;
+}

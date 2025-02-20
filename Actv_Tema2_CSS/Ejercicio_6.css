@@ -1,0 +1,37 @@
+table {
+  width: 50%;
+  border-collapse: collapse; 
+  margin: 20px auto; /
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+th, td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: center; 
+}
+
+th {
+
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff; 
+}
+
+.final {
+    color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  background-color: #424141; 
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd; 
+}
+
+.principio {
+color: #ffffff;
+background-color: #424141;
+}
