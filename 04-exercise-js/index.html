@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Variable Assignment and Display</h2>
+
+
+<p>Enter a text value:</p>
+<input type="text" id="textInput" placeholder="Enter text">
+<button onclick="displayText()">Display Text</button>
+<p id="textOutput"></p>
+
+<!-- Input for numbers -->
+<p>Enter a number:</p>
+<input type="number" id="numberInput" placeholder="Enter number">
+<button onclick="displayNumber()">Display Number</button>
+<p id="numberOutput"></p>
+
+<script>
+function displayText() {
+    let textValue = document.getElementById("textInput").value;
+    document.getElementById("textOutput").innerHTML = "You entered: " + textValue;
+}
+
+function displayNumber() {
+    let numberValue = document.getElementById("numberInput").value
+    document.getElementById("numberOutput").innerHTML = "You entered: " + numberValue;
+}
+</script>
+
+</body>
+</html>
