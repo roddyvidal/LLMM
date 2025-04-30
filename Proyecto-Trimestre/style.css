@@ -1,0 +1,136 @@
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: #000000;
+    text-align: center;
+    }
+    .body.CSS{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: #000000;
+    }
+
+    .links-container{
+        text-decoration: none;
+        display: flex;
+        gap: 300px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 0.5em
+    }
+
+    links-container a{
+        font-size: 18px; 
+        color: #fff;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s;
+       
+    }
+
+
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .card {
+        
+        border: 5px solid #000000;
+        border-radius: 40px;
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card button {
+        background-color:aliceblue ;
+        color: #837c7c;
+        border: outset;
+        border-radius: 5px;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .h1{
+        text-align: center;
+        font-size: larger;
+        size: 300px;
+    }
+  
+.html{
+    background-color: aliceblue;
+    color: black;
+
+        
+    }
+       
+.tag{
+    display: inline-block;
+    background-color: #ffffff; 
+    color: #cf1010; 
+    font-family: Arial, sans-serif; 
+    font-size: 15px; 
+    padding: 2px 4px;
+    border-radius: 6px
+    }
+
+ .heading{
+
+    background-color: #6e6e6e;
+    border-radius: 5px;
+    border: 5px outset #6e6e6e ;
+        }
+    
+.heading2{
+    background-color: #6e6e6e;
+    border-radius: 5px;
+    border: 5px groove #6e6e6e;
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    font-size: 20px;
+    color: #cf1010;
+
+
+    }
+
+ 
+ .ejemplo1{
+    color: red;
+    text-align: center;
+ }
+
+ .footer {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows:
+    auto 1fr auto;
+    text-align: center;
+    background-color: aliceblue;
+ }
+
+  
+.heading3{
+        background-color: #6e6e6e;
+        border-radius: 5px;
+        border: 5px outset #6e6e6e ;
+        gap: 200px;
+        padding: 80px;
+        color: #fff;
+}
+
+.svg{
+    padding: auto;
+    text-align: center;
+    display: flex;
+    margin: 20px;
+}
