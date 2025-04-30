@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frases de Filósofos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        #quoteContainer {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #quote {
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div id="quoteContainer">
+    <div id="quote">"La vida es muy simple, pero insistimos en hacerla complicada." - Confucio</div>
+    <button onclick="changeQuote()">Cambiar frase</button>
+</div>
+
+<script>
+const quotes = [
+    '"La vida es muy simple, pero insistimos en hacerla complicada." - Confucio',
+    '"Solo sé que no sé nada." - Sócrates',
+    '"El hombre es la medida de todas las cosas." - Protágoras',
+    '"La felicidad depende de nosotros mismos." - Aristóteles',
+    '"El conocimiento es poder." - Francis Bacon',
+    '"Pienso, luego existo." - René Descartes',
+    '"La libertad es la obediencia a la ley que uno mismo se ha prescrito." - Rousseau',
+    '"El hombre está condenado a ser libre." - Jean-Paul Sartre',
+    '"La esperanza es el sueño del hombre despierto." - Aristóteles',
+    '"El tiempo es la imagen móvil de la eternidad." - Platón'
+];
+
+let currentIndex = 0;
+
+function changeQuote() {
+    currentIndex = (currentIndex + 1) % quotes.length;
+    document.getElementById("quote").innerHTML = quotes[currentIndex];
+}
+</script>
+
+</body>
+</html>

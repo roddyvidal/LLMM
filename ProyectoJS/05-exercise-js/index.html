@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Buttons</title>
+    <style>
+        #styledParagraph {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Interactive Buttons</h2>
+
+<h3>Change Paragraph Style</h3>
+<p id="styledParagraph">This is a sample paragraph.</p>
+<button onclick="changeFontStyle('Arial')">Arial</button>
+<button onclick="changeFontStyle('Courier New')">Courier New</button>
+<button onclick="changeFontStyle('Times New Roman')">Times New Roman</button>
+
+<h3>Change Image</h3>
+<img id="image" src="images/image1.jpg" alt="Image" width="200">
+<br>
+<button onclick="changeImage('images/image1.jpg')">Image 1</button>
+<button onclick="changeImage('images/image2.jpg')">Image 2</button>
+<button onclick="changeImage('images/image3.jpg')">Image 3</button>
+
+<h3>Show Messages</h3>
+<div id="messageBox" style="border: 1px solid black; padding: 10px; width: 200px; height: 50px;"></div>
+<button onclick="showMessage('Hello, World!')">Message 1</button>
+<button onclick="showMessage('Welcome to the site!')">Message 2</button>
+<button onclick="showMessage('Have a great day!')">Message 3</button>
+
+<script>
+function changeFontStyle(font) {
+    document.getElementById("styledParagraph").style.fontFamily = font;
+}
+
+function changeImage(src) {
+    document.getElementById("image").src = src;
+}
+
+function showMessage(message) {
+    document.getElementById("messageBox").innerHTML = message;
+}
+</script>
+
+</body>
+</html>
