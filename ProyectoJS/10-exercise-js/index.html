@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Exercises</title>
+    <script>
+        function max(a, b) {
+            return a > b ? a : b;
+        }
+
+        function maxOfThree(a, b, c) {
+            return Math.max(a, b, c);
+        }
+
+        function isVowel(char) {
+            return "aeiouAEIOU".includes(char);
+        }
+
+        function translate(text) {
+            return text.replace(/([^aeiou\s])/gi, "$1o$1");
+        }
+
+        function sum(arr) {
+            return arr.reduce((acc, num) => acc + num, 0);
+        }
+
+        function multiply(arr) {
+            return arr.reduce((acc, num) => acc * num, 1);
+        }
+
+        function reverse(str) {
+            return str.split("").reverse().join("");
+        }
+
+        function sortWords(words) {
+            return words.sort();
+        }
+
+        function findLongestWord(words) {
+            return words.reduce((longest, word) => word.length > longest.length ? word : longest, "").length;
+        }
+
+        function filterLongWords(words, i) {
+            return words.filter(word => word.length > i);
+        }
+
+        function charFreq(str) {
+            const freq = {};
+            for (const char of str) {
+                freq[char] = (freq[char] || 0) + 1;
+            }
+            return freq;
+        }
+
+        function displayResult(result) {
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Exercises</h1>
+    <p id="result">Result will be displayed here.</p>
+
+    <h2>Max of Two Numbers</h2>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button onclick="displayResult(max(Number(num1.value), Number(num2.value)))">Find Max</button>
+
+    <h2>Max of Three Numbers</h2>
+    <input type="number" id="num3" placeholder="Enter first number">
+    <input type="number" id="num4" placeholder="Enter second number">
+    <input type="number" id="num5" placeholder="Enter third number">
+    <button onclick="displayResult(maxOfThree(Number(num3.value), Number(num4.value), Number(num5.value)))">Find Max</button>
+
+    <h2>Check Vowel</h2>
+    <input type="text" id="char" maxlength="1" placeholder="Enter a character">
+    <button onclick="displayResult(isVowel(char.value))">Is Vowel?</button>
+
+    <h2>Rövarspråket Translator</h2>
+    <input type="text" id="text" placeholder="Enter text">
+    <button onclick="displayResult(translate(text.value))">Translate</button>
+
+    <h2>Sum and Multiply Array</h2>
+    <input type="text" id="array" placeholder="Enter numbers separated by commas">
+    <button onclick="displayResult(sum(array.value.split(',').map(Number)))">Sum</button>
+    <button onclick="displayResult(multiply(array.value.split(',').map(Number)))">Multiply</button>
+
+    <h2>Reverse String</h2>
+    <input type="text" id="string" placeholder="Enter a string">
+    <button onclick="displayResult(reverse(string.value))">Reverse</button>
+
+    <h2>Sort Words</h2>
+    <input type="text" id="words" placeholder="Enter words separated by commas">
+    <button onclick="displayResult(sortWords(words.value.split(',')).join(', '))">Sort</button>
+
+    <h2>Find Longest Word</h2>
+    <input type="text" id="longWords" placeholder="Enter words separated by commas">
+    <button onclick="displayResult(findLongestWord(longWords.value.split(',')))">Find Longest Word</button>
+
+    <h2>Filter Long Words</h2>
+    <input type="text" id="filterWords" placeholder="Enter words separated by commas">
+    <input type="number" id="minLength" placeholder="Enter minimum length">
+    <button onclick="displayResult(filterLongWords(filterWords.value.split(','), Number(minLength.value)).join(', '))">Filter Words</button>
+
+    <h2>Character Frequency</h2>
+    <input type="text" id="freqString" placeholder="Enter a string">
+    <button onclick="displayResult(JSON.stringify(charFreq(freqString.value)))">Character Frequency</button>
+</body>
+</html>
