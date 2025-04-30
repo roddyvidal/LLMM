@@ -1,0 +1,31 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+table, th, td {
+  border: 1px solid black; 
+}
+
+caption {
+  caption-side: top; 
+  font-weight: bold;
+  background-color: black; 
+  color: white; 
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: gray; 
+  color: black; 
+  font-weight: bold;
+  padding: 10px;
+  text-align: center; 
+}
+
+td {
+  padding: 10px; 
+  text-align: center; 
+}

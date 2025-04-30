@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            padding: 14px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            .gallery img {
+                width: 100px;
+                height: 75px;
+            }
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Galería</a>
+        <a href="#">Contacto</a>
+    </div>
+    <div class="gallery">
+        <img src="Imagenes_ejercicio_11/Ejercicio_11_Imagen1.jpg" alt="Imagen 1">
+        <img src="Imagenes_ejercicio_11/Ejercicio_11_Imagen2.jpg" alt="Imagen 2">
+        <img src="Imagenes_ejercicio_11/Ejercicio_11_Imagen3.jpg" alt="Imagen 3">
+        <img src="Imagenes_ejercicio_11/Ejercicio_11_Imagen4.png" alt="Imagen 4">
+        <img src="Imagenes_ejercicio_11/Ejercicio_11_Imagen1.jpg" alt="Imagen 5">
+        <img src="Imagenes_ejercicio_11/Ejercicio_11_Imagen4.png" alt="Imagen 6">
+    </div>
+</body>
+</html>
