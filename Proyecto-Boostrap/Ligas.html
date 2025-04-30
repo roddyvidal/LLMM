@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Deportivas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    .dark-mode table {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode thead {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode tbody tr:nth-child(even) {
+    background-color: #2a2a2a; 
+}
+
+.dark-mode tbody tr:nth-child(odd) {
+    background-color: #1e1e1e; /
+}
+
+.dark-mode th{
+    background-color: #444 !important;
+    color: white !important;
+}
+.dark-mode td {
+    border-color: #444; 
+}
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        .dark-mode .navbar {
+            background-color: #333 !important;
+        }
+
+        .dark-mode .card {
+            background-color: #222;
+            color: white;
+        }
+
+        .dark-mode footer {
+            background-color: #333;
+        }
+        .btn.btn.btn-outline-light{
+            background-color: #333;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+</style>
+<script src="path/to/darkMode.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const darkModeToggle = document.getElementById("toggleDarkMode");
+        const body = document.body;
+    
+        
+        if (localStorage.getItem("darkMode") === "enabled") {
+            body.classList.add("dark-mode");
+        }
+        darkModeToggle.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                localStorage.setItem("darkMode", "disabled");
+            }
+        });
+    });
+    </script>
+    
+</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-danger" href="index.html">Futbol Emotion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="futbolDropdown" role="button" data-bs-toggle="dropdown">Fútbol</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Noticias.html">Entrevistas</a></li>
+                            <li><a class="dropdown-item" href="Ligas.html">Ligas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button id="toggleDarkMode" class="btn btn-outline-light">Modo Oscuro</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h2>Clasificación LaLiga EA Sports 2024/2025</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Equipo</th>
+                <th>Partidos Jugados</th>
+                <th>Ganados</th>
+                <th>Empatados</th>
+                <th>Perdidos</th>
+                <th>Goles a Favor</th>
+                <th>Goles en Contra</th>
+                <th>Diferencia de Goles</th>
+                <th>Puntos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Real Madrid</td>
+                <td>24</td>
+                <td>15</td>
+                <td>6</td>
+                <td>3</td>
+                <td>52</td>
+                <td>23</td>
+                <td>+29</td>
+                <td>51</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Atlético de Madrid</td>
+                <td>24</td>
+                <td>14</td>
+                <td>8</td>
+                <td>2</td>
+                <td>39</td>
+                <td>16</td>
+                <td>+23</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Barcelona</td>
+                <td>24</td>
+                <td>15</td>
+                <td>4</td>
+                <td>5</td>
+                <td>64</td>
+                <td>25</td>
+                <td>+39</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Athletic de Bilbao</td>
+                <td>24</td>
+                <td>12</td>
+                <td>9</td>
+                <td>3</td>
+                <td>37</td>
+                <td>21</td>
+                <td>+16</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Villarreal</td>
+                <td>24</td>
+                <td>11</td>
+                <td>8</td>
+                <td>5</td>
+                <td>47</td>
+                <td>35</td>
+                <td>+12</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rayo Vallecano</td>
+                <td>24</td>
+                <td>9</td>
+                <td>9</td>
+                <td>6</td>
+                <td>27</td>
+                <td>24</td>
+                <td>+3</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Mallorca</td>
+                <td>24</td>
+                <td>10</td>
+                <td>4</td>
+                <td>10</td>
+                <td>23</td>
+                <td>30</td>
+                <td>-7</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Betis</td>
+                <td>24</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>30</td>
+                <td>31</td>
+                <td>-1</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Osasuna</td>
+                <td>24</td>
+                <td>7</td>
+                <td>11</td>
+                <td>6</td>
+                <td>29</td>
+                <td>33</td>
+                <td>-4</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Girona</td>
+                <td>24</td>
+                <td>9</td>
+                <td>4</td>
+                <td>11</td>
+                <td>32</td>
+                <td>35</td>
+                <td>-3</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Real Sociedad</td>
+                <td>24</td>
+                <td>9</td>
+                <td>4</td>
+                <td>11</td>
+                <td>20</td>
+                <td>23</td>
+                <td>-3</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Sevilla</td>
+                <td>24</td>
+                <td>8</td>
+                <td>7</td>
+                <td>9</td>
+                <td>29</td>
+                <td>34</td>
+                <td>-5</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Getafe</td>
+                <td>24</td>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>20</td>
+                <td>18</td>
+                <td>+2</td>
+            </tr>
+        </tbody>
+            
+    </table>
+    <h2> Clasificación Premier League 2024/2025</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Equipo</th>
+                <th>Partidos Jugados</th>
+                <th>Victorias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Goles a Favor</th>
+                <th>Goles en Contra</th>
+                <th>Diferencia de Goles</th>
+                <th>Puntos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Liverpool FC</td>
+                <td>24</td>
+                <td>18</td>
+                <td>3</td>
+                <td>3</td>
+                <td>55</td>
+                <td>20</td>
+                <td>+35</td>
+                <td>57</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Arsenal FC</td>
+                <td>24</td>
+                <td>15</td>
+                <td>6</td>
+                <td>3</td>
+                <td>50</td>
+                <td>22</td>
+                <td>+28</td>
+                <td>51</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nottingham Forest</td>
+                <td>24</td>
+                <td>14</td>
+                <td>6</td>
+                <td>4</td>
+                <td>45</td>
+                <td>30</td>
+                <td>+15</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Manchester City</td>
+                <td>24</td>
+                <td>13</td>
+                <td>7</td>
+                <td>4</td>
+                <td>48</td>
+                <td>25</td>
+                <td>+23</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>AFC Bournemouth</td>
+                <td>24</td>
+                <td>12</td>
+                <td>6</td>
+                <td>6</td>
+                <td>40</td>
+                <td>30</td>
+                <td>+10</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Chelsea FC</td>
+                <td>24</td>
+                <td>12</td>
+                <td>6</td>
+                <td>6</td>
+                <td>38</td>
+                <td>28</td>
+                <td>+10</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Newcastle United</td>
+                <td>24</td>
+                <td>12</td>
+                <td>5</td>
+                <td>7</td>
+                <td>35</td>
+                <td>25</td>
+                <td>+10</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Fulham FC</td>
+                <td>24</td>
+                <td>10</td>
+                <td>6</td>
+                <td>8</td>
+                <td>32</td>
+                <td>30</td>
+                <td>+2</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Aston Villa</td>
+                <td>24</td>
+                <td>10</td>
+                <td>5</td>
+                <td>9</td>
+                <td>30</td>
+                <td>28</td>
+                <td>+2</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Brighton & Hove Albion</td>
+                <td>24</td>
+                <td>9</td>
+                <td>6</td>
+                <td>9</td>
+                <td>28</td>
+                <td>30</td>
+                <td>-2</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Brentford FC</td>
+                <td>24</td>
+                <td>10</td>
+                <td>3</td>
+                <td>11</td>
+                <td>35</td>
+                <td>37</td>
+                <td>-2</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Tottenham Hotspur</td>
+                <td>24</td>
+                <td>9</td>
+                <td>4</td>
+                <td>11</td>
+                <td>33</td>
+                <td>35</td>
+                <td>-2</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Crystal Palace</td>
+                <td>24</td>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>25</td>
+                <td>28</td>
+                <td>-3</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>    
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Futbol Emotion. Todos los derechos reservados.</p>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Deportivas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dark-mode {
+         background-color: #121212;
+         color: white;
+     }
+
+     .dark-mode .navbar {
+         background-color: #333 !important;
+     }
+
+     .dark-mode .card {
+         background-color: #222;
+         color: white;
+     }
+
+     .dark-mode footer {
+         background-color: #333;
+     }
+     .btn.btn.btn-outline-light{
+            background-color: #333;
+        }
+     </style>
+     <script src="path/to/darkMode.js"></script>
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const darkModeToggle = document.getElementById("toggleDarkMode");
+          const body = document.body;
+  
+          // Verificar si el usuario ya activó el modo oscuro previamente
+          if (localStorage.getItem("dark-mode") === "enabled") {
+              body.classList.add("dark-mode");
+          }
+  
+          darkModeToggle.addEventListener("click", function () {
+              body.classList.toggle("dark-mode");
+  
+              // Guardar la preferencia en localStorage
+              if (body.classList.contains("dark-mode")) {
+                  localStorage.setItem("dark-mode", "enabled");
+              } else {
+                  localStorage.setItem("dark-mode", "disabled");
+              }
+          });
+      });
+      </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-danger" href="index.html">Futbol Emotion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="futbolDropdown" role="button" data-bs-toggle="dropdown">Fútbol</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Noticias.html">Entrevistas</a></li>
+                            <li><a class="dropdown-item" href="Ligas.html">Ligas</a></li>
+                        </ul>
+                    </li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button id="toggleDarkMode" class="btn btn-outline-light">Modo Oscuro</button>
+                        </li>
+                    </ul>
+                    
+            </div>
+        </div>
+    </nav>
+    <h4 class="barcelona">Barcelona</h4>
+    <h2 class="h2-lamine">Maldini habla maravillas sobre Lamine Yamal</h2>
+        <br>
+
+         <p class="p2-lamine">Lamine Yamal es un jugador diferente. Su edad no se refleja en el terreno de juego, gracias entre otras cosas, a esa velocidad de conducción endiablada,<br>
+             sumada a una pausa a la hora de decidir propia de un veterano. Goles, asistencias y títulos (colectivos e individuales) le han hecho elevarse hasta tal punto<br>
+             que nadie se atreve a negar o cuestionar una evidencia: Lamine está llamado a ser uno de los mejores jugadores del mundo, si no lo es ya.<br>
+            <br>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_A4UCJL3ZIs?si=PZG38bdjZGDbDu8J"
+                 title="YouTube video player" 
+                 frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                 referrerpolicy="strict-origin-when-cross-origin" 
+                 allowfullscreen></iframe>
+            <p class="p-lamine"> A sus 17 años y 219 días, el extremo culé ha alcanzado los 100 partidos como profesional. Momento, quizá, de contextualizar el camino que Lamine ya ha recorrido<br>
+             y que le sitúa en la dirección ideal para llegar a reinar en este deporte. A Leo Messi le hicieron falta 20 años y 105 días para lograr ‘el centenario’ como profesional,<br>
+              a Cristiano Ronaldo, 19 años y 254 días y a Kylian Mbappé, 19 años y 56 días. En la vida dos o tres años son ‘un mundo’, pero en el fútbol se convierten en ‘un universo’ <br>
+               (para bien y para mal).
+            </p>
+        </p>
+        <div class="quote-container">
+            <span class="quote-mark">“</span>
+            <p class="quote-text">
+                <em>Si tengo que destacar a uno por su edad y lo que viene haciendo, es Lamine Yamal. Él ya es el presente y el futuro</em>
+            </p>
+            <p class="quote-author"><strong>Leo Messi</strong></p>
+        </div>
+        
+       
+    </div>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aqBtoXRp5ZM?si=Uk0rNgXjrweWA0Rd" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </div>
+    <script>('click', function () {
+        body.classList.toggle('dark-mode');
+        if (body.classList.contains('dark-mode')) {
+            localStorage.setItem('darkMode', 'enabled');
+        } else {
+            localStorage.setItem('darkMode', 'disabled');
+        }
+        });
+    </script>
+     <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Futbol Emotion. Todos los derechos reservados.</p>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
