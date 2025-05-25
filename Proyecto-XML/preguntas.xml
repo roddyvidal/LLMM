@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <question id="1">
+    <wording>¿Cuál es la capital de Francia?</wording>
+    <choices>
+      <choice correct="yes">París</choice>
+      <choice>Madrid</choice>
+      <choice>Roma</choice>
+      <choice>Berlín</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Cuántos jugadores tiene un equipo de fútbol?</wording>
+    <choices>
+      <choice correct="yes">11</choice>
+      <choice>10</choice>
+      <choice>12</choice>
+      <choice>9</choice>
+    </choices>
+  </question>
+</test>
