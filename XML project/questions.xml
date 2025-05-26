@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording, choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id='1'>
+    <wording>What was Cristiano Ronaldo's last season at Real Madrid?</wording>
+    <choices>
+      <choice correct='yes'>2017/18 Season</choice>
+      <choice correct='no'>2021/22 Season</choice>
+      <choice correct='no'>2018/19 Season</choice>
+      <choice correct='no'>2015/16 Season</choice>
+    </choices>
+  </question>
+  <question id='2'>
+    <wording>Who is the footballer with the most goals in a calendar year?</wording>
+    <choices>
+      <choice correct='no'>Pelé</choice>
+      <choice correct='no'>Cristiano Ronaldo</choice>
+      <choice correct='yes'>Lionel Messi</choice>
+      <choice correct='no'>Di Stéfano</choice>
+    </choices>
+  </question>
+  <question id='3'>
+    <wording>Which player has the most goals in World Cups?</wording>
+    <choices>
+      <choice correct='no'>Cristiano Ronaldo</choice>
+      <choice correct='no'>Just Fontaine</choice>
+      <choice correct='no'>Pelé</choice>
+      <choice correct='yes'>Miroslav Klose</choice>
+    </choices>
+  </question>
+  <question id='4'>
+    <wording>How many goals has Messi scored in his career?</wording>
+    <choices>
+      <choice correct='no'>700</choice>
+      <choice correct='no'>800</choice>
+      <choice correct='no'>900</choice>
+      <choice correct='yes'>1000</choice>
+    </choices>
+  </question>
+  <question id='5'>
+    <wording>How many goals has Cristiano Ronaldo scored in his career?</wording>
+    <choices>
+      <choice correct='no'>700</choice>
+      <choice correct='no'>800</choice>
+      <choice correct='no'>900</choice>
+      <choice correct='yes'>1000</choice>
+    </choices>
+  </question>
+  <question id='6'>
+    <wording>How many Champions League titles does Real Madrid have?</wording>
+    <choices>
+      <choice correct='no'>13</choice>
+      <choice correct='no'>10</choice>
+      <choice correct='no'>20</choice>
+      <choice correct='yes'>15</choice>
+    </choices>
+  </question>
+  <question id='7'>
+    <wording>How many Champions League titles does Barcelona have?</wording>
+    <choices>
+      <choice correct='no'>7</choice>
+      <choice correct='yes'>5</choice>
+      <choice correct='no'>8</choice>
+      <choice correct='no'>3</choice>
+    </choices>
+  </question>
+  <question id='8'>
+    <wording>How many Champions League titles does Bayern Munich have?</wording>
+    <choices>
+      <choice correct='no'>7</choice>
+      <choice correct='no'>5</choice>
+      <choice correct='yes'>6</choice>
+      <choice correct='no'>3</choice>
+    </choices>
+  </question>
+  <question id='9'>
+    <wording>How many World Cup goals does Cristiano Ronaldo have?</wording>
+    <choices>
+      <choice correct='no'>7</choice>
+      <choice correct='no'>5</choice>
+      <choice correct='yes'>8</choice>
+      <choice correct='no'>3</choice>
+    </choices>
+  </question>
+  <question id='10'>
+    <wording>Which country has the most World Cups?</wording>
+    <choices>
+      <choice correct='no'>Germany</choice>
+      <choice correct='yes'>Brazil</choice>
+      <choice correct='no'>Argentina</choice>
+      <choice correct='no'>Italy</choice>
+    </choices>
+  </question>
+  <question id='11'>
+    <wording>Who won the Ballon d'Or in 2023?</wording>
+    <choices>
+      <choice correct='yes'>Lionel Messi</choice>
+      <choice correct='no'>Erling Haaland</choice>
+      <choice correct='no'>Kylian Mbappé</choice>
+      <choice correct='no'>Kevin De Bruyne</choice>
+    </choices>
+  </question>
+  <question id='12'>
+    <wording>In which country was the 2018 World Cup played?</wording>
+    <choices>
+      <choice correct='no'>Germany</choice>
+      <choice correct='no'>Brazil</choice>
+      <choice correct='yes'>Russia</choice>
+      <choice correct='no'>South Africa</choice>
+    </choices>
+  </question>
+  <question id='13'>
+    <wording>Which club has won the most Champions League titles?</wording>
+    <choices>
+      <choice correct='yes'>Real Madrid</choice>
+      <choice correct='no'>AC Milan</choice>
+      <choice correct='no'>FC Barcelona</choice>
+      <choice correct='no'>Liverpool</choice>
+    </choices>
+  </question>
+  <question id='14'>
+    <wording>Which player is known as "El Fenómeno"?</wording>
+    <choices>
+      <choice correct='no'>Ronaldinho</choice>
+      <choice correct='yes'>Ronaldo Nazário</choice>
+      <choice correct='no'>Pelé</choice>
+      <choice correct='no'>Neymar</choice>
+    </choices>
+  </question>
+  <question id='15'>
+    <wording>Which national team won Euro 2020?</wording>
+    <choices>
+      <choice correct='yes'>Italy</choice>
+      <choice correct='no'>England</choice>
+      <choice correct='no'>France</choice>
+      <choice correct='no'>Spain</choice>
+    </choices>
+  </question>
+  <question id='16'>
+    <wording>Which Spanish team is nicknamed "Los Colchoneros"?</wording>
+    <choices>
+      <choice correct='no'>Real Madrid</choice>
+      <choice correct='yes'>Atlético Madrid</choice>
+      <choice correct='no'>Sevilla</choice>
+      <choice correct='no'>Valencia</choice>
+    </choices>
+  </question>
+  <question id='17'>
+    <wording>What is the name of FC Barcelona's stadium?</wording>
+    <choices>
+      <choice correct='yes'>Spotify Camp Nou</choice>
+      <choice correct='no'>Santiago Bernabéu</choice>
+      <choice correct='no'>La Rosaleda</choice>
+      <choice correct='no'>San Mamés</choice>
+    </choices>
+  </question>
+  <question id='18'>
+    <wording>Which country hosted the first FIFA World Cup?</wording>
+    <choices>
+      <choice correct='yes'>Uruguay</choice>
+      <choice correct='no'>Italy</choice>
+      <choice correct='no'>Brazil</choice>
+      <choice correct='no'>France</choice>
+    </choices>
+  </question>
+  <question id='19'>
+    <wording>Who is the all-time top scorer in the Champions League?</wording>
+    <choices>
+      <choice correct='yes'>Cristiano Ronaldo</choice>
+      <choice correct='no'>Lionel Messi</choice>
+      <choice correct='no'>Karim Benzema</choice>
+      <choice correct='no'>Robert Lewandowski</choice>
+    </choices>
+  </question>
+  <question id='20'>
+    <wording>What was the result of the 2022 World Cup final?</wording>
+    <choices>
+      <choice correct='yes'>Argentina 3 - 3 France (Argentina won on penalties)</choice>
+      <choice correct='no'>France 2 - 1 Argentina</choice>
+      <choice correct='no'>Argentina 2 - 0 France</choice>
+      <choice correct='no'>Argentina 1 - 0 France</choice>
+    </choices>
+  </question>
+</test>
